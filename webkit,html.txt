@@ -1,0 +1,14 @@
+<html>
+<head>
+<style>
+p{
+background:-webkit-linear-gradient(red,white,blue);
+-webkit-text-fill-color:transparent;
+-webkit-background-clip:text;
+}
+</style>
+</head>
+<body>
+<p>this is text</p>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+#menu
+{
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+#menu>li
+{
+display:inline-block;
+postion:relative;
+}
+#menu>li>a
+{
+color:white;
+background-color:black;
+text-decoration:none;
+padding:5px;
+}
+#menu>li>a:hover
+{
+color:black;
+background-color:yellow;
+}
+.submenu
+{
+display:none;
+position:absolute;
+list-style-type:none;
+padding:0px;
+}
+#menu>li:hover  .submenu
+{
+display:block;
+}
+.submenu li 
+{
+width:200px;
+margin-top:12px;
+}
+.submenu li a
+{
+color:white;
+background-color:red;
+padding:7px;
+text-decoration:none;
+}
+.submenu li a:hover
+{
+color:black;
+background-color:yellow;
+}
+</style>
+</head>
+<body>
+<ul id="menu">
+<li><a href="">home</a>
+<ul class="submenu">
+<li><a href="">home 1</a></li>
+<li><a href="">home 2</a></li>
+<li><a href="">home 3</a></li>
+</ul>
+</li>
+<li><a href="">school</a>
+<ul class="submenu">
+<li><a href="">school l</a></li>
+<li><a href="">school 2</a></li>
+<li><a href="">school 3</a></li>
+</ul>
+</li>
+<li><a href="">gallery</a></li>
+<li><a href="">contact</a></li>
+<li><a href="">address</a></li>
+</ul>
+</body>
+</html>
